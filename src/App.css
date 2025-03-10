@@ -1,0 +1,24 @@
+/* Define default card color variables */
+:root {
+  --card-bg-color: #ffffff;
+  --card-text-color: #333;
+}
+
+/* Apply card colors dynamically */
+.card {
+  background-color: var(--card-bg-color);
+  color: var(--card-text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --card-bg-color: #343a40;
+  --card-text-color: #f8f9fa;
+}
+
+/* Light Theme */
+.light-theme {
+  --card-bg-color: #ffffff;
+  --card-text-color: #333;
+}
